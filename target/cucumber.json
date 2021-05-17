@@ -1,0 +1,696 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21531282900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the homescreen",
+            "match": {
+              "location": "CommonTest.iAmOnTheHomescreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3830291000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the button to signin",
+            "match": {
+              "location": "CommonTest.iClickOnTheButtonToSignin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16960237100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonTest.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "I want to retrieve my forgotten password",
+        "description": "",
+        "id": "retrieve-password;i-want-to-retrieve-my-forgotten-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4433808100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the forgot your password link",
+            "match": {
+              "location": "Check_forgotPassword_functionalityTest.iClickTheForgotYourPasswordLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1140612700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter my email",
+            "match": {
+              "location": "Check_forgotPassword_functionalityTest.iEnterMyEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4142067800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Click the retrieve passowrd button",
+            "match": {
+              "location": "Check_forgotPassword_functionalityTest.iClickTheRetrievePassowrdButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214994400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should get a confirmation message",
+            "match": {
+              "location": "Check_forgotPassword_functionalityTest.iShouldGetAConfirmationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Retrieve Password",
+    "description": "",
+    "id": "retrieve-password",
+    "keyword": "Feature",
+    "uri": "Check_forgotPassword_functionality.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 358300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonTest.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Common test steps",
+        "description": "",
+        "id": "common;common-test-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27648985200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the homescreen",
+            "match": {
+              "location": "CommonTest.iAmOnTheHomescreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16082848600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button to signin",
+            "match": {
+              "location": "CommonTest.iClickOnTheButtonToSignin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Common",
+    "description": "",
+    "id": "common",
+    "keyword": "Feature",
+    "uri": "Common.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#@ignore"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28591656700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the homescreen",
+            "match": {
+              "location": "CommonTest.iAmOnTheHomescreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11774010900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button to signin",
+            "match": {
+              "location": "CommonTest.iClickOnTheButtonToSignin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 277300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonTest.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "I want to create a new user account",
+        "description": "",
+        "id": "create-new-user;i-want-to-create-a-new-user-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2155167800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter email to create new user",
+            "match": {
+              "location": "CreateNew_UserAccTest.iEnterEmailToCreateNewUser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 606916100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the create account button",
+            "match": {
+              "location": "CreateNew_UserAccTest.iClickTheCreateAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3256961100,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"name\",\"selector\":\"id_gender\"}\n  (Session info: chrome\u003d90.0.4430.212)\n  (Driver info: chromedriver\u003d90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 110 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.0.1\u0027, revision: \u00271969d75\u0027, time: \u00272016-10-18 09:49:13 -0700\u0027\nSystem info: host: \u0027DESKTOP-UC6UARC\u0027, ip: \u0027172.20.10.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.10\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:64671}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}), userDataDir\u003dC:\\Users\\Samsung\\AppData\\Local\\Temp\\scoped_dir9712_1903157122}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d90.0.4430.212, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: bed66112ca42890919d19aff17196fed\n*** Element info: {Using\u003dname, value\u003did_gender}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat Pages.CreateNewUserPage.SetUserGender(CreateNewUserPage.java:83)\r\n\tat Step_Definition.CreateNew_UserAccTest.iEnterAllMandatoryDetailsForNewUser(CreateNew_UserAccTest.java:36)\r\n\tat ✽.When I enter all mandatory details for new user(CreateNew_UserAcc.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I enter all mandatory details for new user",
+            "match": {
+              "location": "CreateNew_UserAccTest.iEnterAllMandatoryDetailsForNewUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click the register button",
+            "match": {
+              "location": "CreateNew_UserAccTest.iClickTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "New user should be created successfully",
+            "match": {
+              "location": "CreateNew_UserAccTest.newUserShouldBeCreatedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create New User",
+    "description": "",
+    "id": "create-new-user",
+    "keyword": "Feature",
+    "uri": "CreateNew_UserAcc.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#@ignore"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 44361321000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the homescreen",
+            "match": {
+              "location": "CommonTest.iAmOnTheHomescreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14886989800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button to signin",
+            "match": {
+              "location": "CommonTest.iClickOnTheButtonToSignin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 771100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonTest.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login with invalid credentials should return appropriate error message",
+        "description": "",
+        "id": "login;login-with-invalid-credentials-should-return-appropriate-error-message;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6206736600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter user email \"lanreikuesan+1@gmail.com\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lanreikuesan+1@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "InvalidLoginTest.iEnterUserEmailInTheUsernameField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2538900600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter user password \"march\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "march",
+                  "offset": 23
+                }
+              ],
+              "location": "InvalidLoginTest.iEnterUserPasswordInThePasswordField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7064185500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on login",
+            "match": {
+              "location": "InvalidLoginTest.iClickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22482925500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should get the right error message \"Authentication failed.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 38
+                }
+              ],
+              "location": "InvalidLoginTest.iShouldGetTheRightErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 30960043000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the homescreen",
+            "match": {
+              "location": "CommonTest.iAmOnTheHomescreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7643815000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button to signin",
+            "match": {
+              "location": "CommonTest.iClickOnTheButtonToSignin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 384000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonTest.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login with invalid credentials should return appropriate error message",
+        "description": "",
+        "id": "login;login-with-invalid-credentials-should-return-appropriate-error-message;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1379098100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter user email \"lanre222@gmail.com\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lanre222@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "InvalidLoginTest.iEnterUserEmailInTheUsernameField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 683595700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter user password \"march2021\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "march2021",
+                  "offset": 23
+                }
+              ],
+              "location": "InvalidLoginTest.iEnterUserPasswordInThePasswordField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9384579700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on login",
+            "match": {
+              "location": "InvalidLoginTest.iClickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4776170500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should get the right error message \"Authentication failed.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 38
+                }
+              ],
+              "location": "InvalidLoginTest.iShouldGetTheRightErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "InvalidLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21928736300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the homescreen",
+            "match": {
+              "location": "CommonTest.iAmOnTheHomescreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9844360100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the button to signin",
+            "match": {
+              "location": "CommonTest.iClickOnTheButtonToSignin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 444600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonTest.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "I want to verify that logo is displayed and login with valid credentials",
+        "description": "",
+        "id": "logo-and-valid-login;i-want-to-verify-that-logo-is-displayed-and-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 352252100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify that the application logo is displayed",
+            "match": {
+              "location": "VerifyLogo_And_ValidLoginTest.i_verify_that_the_application_logo_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1077916000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter my valid username",
+            "match": {
+              "location": "VerifyLogo_And_ValidLoginTest.i_enter_my_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 919030100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter my valid password",
+            "match": {
+              "location": "VerifyLogo_And_ValidLoginTest.i_enter_my_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3981300100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the login button",
+            "match": {
+              "location": "VerifyLogo_And_ValidLoginTest.i_click_on_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3325637400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "VerifyLogo_And_ValidLoginTest.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logo and Valid login",
+    "description": "",
+    "id": "logo-and-valid-login",
+    "keyword": "Feature",
+    "uri": "VerifyLogo_And_ValidLogin.feature"
+  }
+]
