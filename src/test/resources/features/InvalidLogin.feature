@@ -16,8 +16,8 @@ Feature: Login
       |email                           |password                     |ErrorMessage              |
       |lanreikuesan+1@gmail.com        |march                        |Authentication failed.    |
       |lanre222@gmail.com              |march2021                    |Authentication failed.    |
-      #|lanre222@mail.com               |march                        |Authentication failed.    |
-      #|                                |                             |An email address required.|
+      |lanre222@mail.com               |march                        |Authentication failed.    |
+      |                                |                             |An email address required.|
       #|lanreikuesan+1@gmail.com        |                             |Password is required.     |
       #|                                |march2021                    |An email address required.|
 
