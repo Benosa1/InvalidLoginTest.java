@@ -18,6 +18,6 @@ Feature: Login
       |lanre222@gmail.com              |march2021                    |Authentication failed.    |
       |lanre222@mail.com               |march                        |Authentication failed.    |
       |                                |                             |An email address required.|
-      #|lanreikuesan+1@gmail.com        |                             |Password is required.     |
+      |lanreikuesan+1@gmail.com        |                             |Password is required.     |
       #|                                |march2021                    |An email address required.|
 
